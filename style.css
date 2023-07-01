@@ -1,0 +1,48 @@
+table{
+    width: 100%;
+}
+
+table,th,td {
+    border: thin solid rgb(180, 180, 180);
+    border-collapse: collapse;
+}
+
+th{
+    color: whitesmoke;
+    padding: 15px 5px 15px 5px;
+}
+
+.tableHead{
+    background-color: rgb(50, 0, 142);
+}
+
+.flag,.postal,.c_city,.l_city,.entConfed{
+text-align: center;
+}
+
+.province{
+    text-align: left;
+}
+
+.tableData td{
+    padding: 10px;
+    text-align: center;
+}
+
+caption{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.total{
+    background-color: rgb(255, 229, 115);
+}
+
+.flag{
+    padding: 0 15px 0 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
